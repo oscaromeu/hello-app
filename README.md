@@ -1,5 +1,6 @@
 # Hello Application example
 
+[![CI](https://github.com/oscaromeu/hello-app/workflows/Build/badge.svg?branch=main&event=push)](https://github.com/oscaromeu/hello-app/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/oscaromeu/hello-app)](https://hub.docker.com/r/oscaromeu/hello-app/)
 
 This example shows how to build and deploy a containerized Go web server
 application using [Kubernetes](https://kubernetes.io).

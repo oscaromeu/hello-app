@@ -38,3 +38,4 @@ jobs:
           tags: |
             ${{ github.repository }}:latest
             ${{ github.repository }}:${{ github.sha }}
+            ${{ github.repository }}:${{ steps.get_tag.outputs.TAG }}
