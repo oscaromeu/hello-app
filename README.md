@@ -1,6 +1,6 @@
 # Hello Application example
 
-![CI](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/build.yaml/badge.svg)[![Docker pulls](https://img.shields.io/docker/pulls/oscaromeu/hello-app)](https://hub.docker.com/r/oscaromeu/hello-app/)
+![CI](https://github.com/oscaromeu/hello-app/actions/workflows/build.yaml/badge.svg)[![Docker pulls](https://img.shields.io/docker/pulls/oscaromeu/hello-app)](https://hub.docker.com/r/oscaromeu/hello-app/)
 
 This example shows how to build and deploy a containerized Go web server
 application using [Kubernetes](https://kubernetes.io).
