@@ -34,7 +34,7 @@ jobs:
             GitCommit=${{ github.sha }}
           tags: |
             ${{ github.repository }}:latest
-            ${{ github.repository }}:${{ github.ref }}
+            ${{ github.repository }}:${GITHUB_REF/refs\/tags\//}
             ${{ github.repository }}:${{ github.sha }}
 
   # https://docs.github.com/en/actions/learn-github-actions/contexts
