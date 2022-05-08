@@ -4,8 +4,6 @@ on:
   push:
     tags:
       - '*'
-    branches:
-      - main
 
 jobs:
   publish:
@@ -37,4 +35,7 @@ jobs:
             GitCommit=${{ github.sha }}
           tags: |
             ${{ github.repository }}:latest
+            ${{ github.repository }}:${{ github.ref }}
             ${{ github.repository }}:${{ github.sha }}
+
+  # https://docs.github.com/en/actions/learn-github-actions/contexts
